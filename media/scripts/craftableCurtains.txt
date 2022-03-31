@@ -1,0 +1,41 @@
+module CraftableCurtains
+{
+	imports {
+        Base
+    }
+	
+	
+	recipe Craft Small Curtain
+	{
+		Sheet,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_02_5,
+		SkillRequired:Tailoring=2,
+		Sound:ClothesRipping,
+		Time:100.0,
+	}
+	
+	recipe Craft Curtain
+	{
+		Sheet=2,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_55,
+		SkillRequired:Tailoring=3,
+		Sound:ClothesRipping,
+		Time:100.0,
+	}
+	
+	recipe Craft Long Curtain
+	{
+		Sheet=2,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_15,
+		SkillRequired:Tailoring=4,
+		Sound:ClothesRipping,
+		Time:100.0,
+	}
+}
+	
