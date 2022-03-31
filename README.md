@@ -1,8 +1,13 @@
-# craftable-curtains
+# zomboid-craftable-curtains
 Craftable Curtains in Project Zomboid
 
 ## Install
-Not on Steam Workshop just yet, so for now download this repo as a .zip, and unzip it in your Zomboid mods folder.
+[Subscribe via the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2787505766).
+
+## ToDo
+
+ - Make other colours craftable
+ - Make crafting requirements configurable
 
 ## Support
 Just open a github issue or something.
