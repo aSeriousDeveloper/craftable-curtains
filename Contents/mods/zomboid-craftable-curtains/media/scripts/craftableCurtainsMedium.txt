@@ -1,0 +1,107 @@
+/**
+	White: Moveables.fixtures_windows_curtains_01_55
+	Beige: Moveables.fixtures_windows_curtains_01_63
+	Black: Moveables.fixtures_windows_curtains_01_78
+	Blue: Moveables.fixtures_windows_curtains_01_30
+	Brown: Moveables.fixtures_windows_curtains_01_45
+	Gray: Moveables.fixtures_windows_curtains_01_85
+	Green: Moveables.fixtures_windows_curtains_01_68
+	Pink: Moveables.fixtures_windows_curtains_01_37
+**/
+
+module CraftableCurtains
+{
+	imports {
+        Base
+    }
+	
+	recipe Craft Curtain
+	{
+		Sheet=2,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_55,
+		SkillRequired:Tailoring=3,
+		Sound:ClothesRipping,
+		Time:100.0,
+	}
+
+	recipe Convert Curtain (Beige) {
+		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_63,
+		SkillRequired:Tailoring=3,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Curtain (Black) {
+		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_78,
+		SkillRequired:Tailoring=3,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Curtain (Blue) {
+		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63
+			,
+		keep Scissors,
+		Result:Moveables.fixtures_windows_curtains_01_30,
+		Category:Curtains,
+		SkillRequired:Tailoring=3,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Curtain (Brown) {
+		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_63,
+		keep Scissors,
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_45,
+		SkillRequired:Tailoring=3,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Curtain (Gray) {
+		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_85,
+		SkillRequired:Tailoring=3,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Curtain (Green) {
+		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_68,
+		SkillRequired:Tailoring=3,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Curtain (Pink) {
+		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_37,
+		SkillRequired:Tailoring=3,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+}
+	

@@ -1,0 +1,58 @@
+/**
+	White: Moveables.fixtures_windows_curtains_02_5
+	Green: Moveables.fixtures_windows_curtains_02_15
+	Bordeaux: Moveables.fixtures_windows_curtains_02_23
+	Pearl: Moveables.fixtures_windows_curtains_02_30,
+**/
+
+module CraftableCurtains {
+	imports {
+        Base
+    }
+
+	recipe Craft Small Curtain {
+		Sheet,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_02_5,
+		SkillRequired:Tailoring=2,
+		Sound:ClothesRipping,
+		Time:100.0,
+	}
+
+	recipe Convert Small Curtain (Bordeaux) {
+		Moveables.fixtures_windows_curtains_02_5/Moveables.fixtures_windows_curtains_02_15/Moveables.fixtures_windows_curtains_02_30,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_02_23,
+		SkillRequired:Tailoring=2,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Small Curtain (Green) {
+		Moveables.fixtures_windows_curtains_02_5/Moveables.fixtures_windows_curtains_02_23/Moveables.fixtures_windows_curtains_02_30,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_02_15,
+		SkillRequired:Tailoring=2,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Small Curtain (Pearl) {
+		Moveables.fixtures_windows_curtains_02_5/Moveables.fixtures_windows_curtains_02_15/Moveables.fixtures_windows_curtains_02_23,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_02_30,
+		SkillRequired:Tailoring=2,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+}
+	

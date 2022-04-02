@@ -1,0 +1,48 @@
+/**
+	White: Moveables.fixtures_windows_curtains_01_15
+	Beige: Moveables.fixtures_windows_curtains_01_4
+	Gray: Moveables.fixtures_windows_curtains_01_95
+**/
+
+module CraftableCurtains
+{
+	imports {
+        Base
+    }
+	
+	recipe Craft Long Curtain
+	{
+		Sheet=2,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_15,
+		SkillRequired:Tailoring=4,
+		Sound:ClothesRipping,
+		Time:100.0,
+	}
+
+	recipe Convert Long Curtain (Beige) {
+		Moveables.fixtures_windows_curtains_01_15/Moveables.fixtures_windows_curtains_01_95,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_4,
+		SkillRequired:Tailoring=4,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+	recipe Convert Long Curtain (Gray) {
+		Moveables.fixtures_windows_curtains_01_15/Moveables.fixtures_windows_curtains_01_4,
+		keep Scissors,
+		
+		Category:Curtains,
+		Result:Moveables.fixtures_windows_curtains_01_95,
+		SkillRequired:Tailoring=4,
+		Sound:Painting,
+		Time:100.0,
+	}
+
+}
+	
