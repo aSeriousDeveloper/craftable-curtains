@@ -15,7 +15,7 @@ module CraftableCurtains
 		Sheet=2,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_15,
 		SkillRequired:Tailoring=4,
 		Sound:ClothesRipping,
@@ -26,7 +26,7 @@ module CraftableCurtains
 		Moveables.fixtures_windows_curtains_01_15/Moveables.fixtures_windows_curtains_01_95,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_4,
 		SkillRequired:Tailoring=4,
 		Sound:Painting,
@@ -37,7 +37,7 @@ module CraftableCurtains
 		Moveables.fixtures_windows_curtains_01_15/Moveables.fixtures_windows_curtains_01_4,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_95,
 		SkillRequired:Tailoring=4,
 		Sound:Painting,

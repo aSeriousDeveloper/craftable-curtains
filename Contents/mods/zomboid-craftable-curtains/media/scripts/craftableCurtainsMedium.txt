@@ -20,7 +20,7 @@ module CraftableCurtains
 		Sheet=2,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_55,
 		SkillRequired:Tailoring=3,
 		Sound:ClothesRipping,
@@ -31,7 +31,7 @@ module CraftableCurtains
 		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_63,
 		SkillRequired:Tailoring=3,
 		Sound:Painting,
@@ -42,7 +42,7 @@ module CraftableCurtains
 		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_78,
 		SkillRequired:Tailoring=3,
 		Sound:Painting,
@@ -54,7 +54,7 @@ module CraftableCurtains
 			,
 		keep Scissors,
 		Result:Moveables.fixtures_windows_curtains_01_30,
-		Category:Curtains,
+		Category:Furniture,
 		SkillRequired:Tailoring=3,
 		Sound:Painting,
 		Time:100.0,
@@ -63,7 +63,7 @@ module CraftableCurtains
 	recipe Convert Curtain (Brown) {
 		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_63,
 		keep Scissors,
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_45,
 		SkillRequired:Tailoring=3,
 		Sound:Painting,
@@ -74,7 +74,7 @@ module CraftableCurtains
 		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_85,
 		SkillRequired:Tailoring=3,
 		Sound:Painting,
@@ -85,7 +85,7 @@ module CraftableCurtains
 		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_37/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_68,
 		SkillRequired:Tailoring=3,
 		Sound:Painting,
@@ -96,7 +96,7 @@ module CraftableCurtains
 		Moveables.fixtures_windows_curtains_01_55/Moveables.fixtures_windows_curtains_01_78/Moveables.fixtures_windows_curtains_01_85/Moveables.fixtures_windows_curtains_01_68/Moveables.fixtures_windows_curtains_01_30/Moveables.fixtures_windows_curtains_01_45/Moveables.fixtures_windows_curtains_01_63,
 		keep Scissors,
 		
-		Category:Curtains,
+		Category:Furniture,
 		Result:Moveables.fixtures_windows_curtains_01_37,
 		SkillRequired:Tailoring=3,
 		Sound:Painting,
