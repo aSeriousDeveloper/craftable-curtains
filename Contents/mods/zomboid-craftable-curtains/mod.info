@@ -1,5 +1,6 @@
 name=Craftable Curtains
 poster=poster.png
+icon=icon.png
 id=craftable-curtains-robboinnit
 description=Make Curtains Craftable
 url=https://github.com/aSeriousDeveloper/zomboid-craftable-curtains
