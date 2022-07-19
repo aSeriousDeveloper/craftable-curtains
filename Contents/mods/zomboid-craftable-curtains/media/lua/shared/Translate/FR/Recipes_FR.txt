@@ -1,0 +1,17 @@
+Recipes_FR = {
+	Recipe_Craft_Long_Curtain = "Fabriquer Long Rideau Blanc",
+	Recipe_Convert_Long_Curtain_(Beige) = "Convertir Rideau Long en Beige",
+	Recipe_Convert_Long_Curtain_(Gray) = "Convertir Rideau Long en Gris",
+	Recipe_Craft_Curtain = "Fabriquer Rideau Blanc",
+	Recipe_Convert_Curtain_(Beige) = "Convertir Rideau en Beige",
+	Recipe_Convert_Curtain_(Black) = "Convertir Rideau en Noir",
+	Recipe_Convert_Curtain_(Blue) = "Convertir Rideau en Bleu",
+	Recipe_Convert_Curtain_(Brown) = "Convertir Rideau en Marron",
+	Recipe_Convert_Curtain_(Gray) = "Convertir Rideau en Gris",
+	Recipe_Convert_Curtain_(Green) = "Convertir Rideau en Vert",
+	Recipe_Convert_Curtain_(Pink) = "Convertir Rideau en Rose",
+	Recipe_Craft_Small_Curtain = "Fabriquer Petit Rideau Blanc",
+	Recipe_Convert_Small_Curtain_(Bordeaux) = "Convertir Petit Rideau en Bordeaux",
+	Recipe_Convert_Small_Curtain_(Green) = "Convertir Petit Rideau en Vert",
+	Recipe_Convert_Small_Curtain_(Pearl) = "Convertir Petit Rideau en Perle",
+}

@@ -15,6 +15,7 @@ description=- ~~Make other colours craftable~~ - DONE
 description=- Make crafting requirements configurable
 description=
 description=If you have any suggestions or bugs to report please try to do them at: https://github.com/aSeriousDeveloper/zomboid-craftable-curtains
+description=NOTE: For translations you want to add, please open them as a PR here also. You can use the french translation as an example.
 description=
 description=Although nice comments are also fine here.
 description=Additionally if you want to contribute feel free to make a Pull Request.
