@@ -1,0 +1,17 @@
+Recipes_CH = {
+	Recipe_Craft_Long_Curtain = "製作長版白色窗簾",
+	Recipe_Convert_Long_Curtain_(Beige) = "將長版窗簾轉換為米色",
+	Recipe_Convert_Long_Curtain_(Gray) = "將長版窗簾轉換為灰色",
+	Recipe_Craft_Curtain = "製作白色窗簾",
+	Recipe_Convert_Curtain_(Beige) = "將窗簾轉換為米色",
+	Recipe_Convert_Curtain_(Black) = "將窗簾轉換為黑色",
+	Recipe_Convert_Curtain_(Blue) = "將窗簾轉換為藍色",
+	Recipe_Convert_Curtain_(Brown) = "將窗簾轉換為棕色",
+	Recipe_Convert_Curtain_(Gray) = "將窗簾轉換為灰色",
+	Recipe_Convert_Curtain_(Green) = "將窗簾轉換為綠色",
+	Recipe_Convert_Curtain_(Pink) = "將窗簾轉換為粉紅色",
+	Recipe_Craft_Small_Curtain = "製作短版白色窗簾",
+	Recipe_Convert_Small_Curtain_(Bordeaux) = "將短版窗簾轉換為栗色",
+	Recipe_Convert_Small_Curtain_(Green) = "將短版窗簾轉換為綠色",
+	Recipe_Convert_Small_Curtain_(Pearl) = "將短版窗簾轉換為珍珠色",
+}
